@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: rgb(0, 217, 255);
+}
+
+.btn-primary {
+  height: 55px;
+  border-radius: 5px;
+  background-color: rgb(0, 217, 255);
+  color: white;
+  font-weight: 700;
+  border-style: none;
+  padding: 18px 35px;
+}
+.header {
+  background: rgb(233, 252, 255);
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+/* header and navigation styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.nav-title {
+  font-weight: 800px;
+  font-size: 35px;
+}
+nav li {
+  list-style: none;
+  margin: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/* banner styles */
+
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-subtitle {
+  font-size: 40px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 5px;
+}
+.banner-title {
+  color: black;
+  font-size: 80px;
+  font-weight: 900px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: rgb(68, 68, 68);
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+/* main section  */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about me style */
+
+.aboutme {
+  margin: 100px;
+  background: rgb(233, 252, 255);
+  border-radius: 15px;
+  padding: 150px 130px;
+  text-align: center;
+}
+.section-title {
+  color: black;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.section-description {
+  margin-bottom: 30px;
+  color: rgb(68, 68, 68);
+}
+
+.table {
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 0 50px;
+}
