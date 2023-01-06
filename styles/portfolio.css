@@ -196,3 +196,47 @@ section {
   text-align: center;
   margin-top: 60px;
 }
+/* contact style  */
+.contact{
+  display: flex;
+  gap: 70px;
+  background: rgb(233, 252, 255);
+  padding: 130px 200px;
+}
+.contact .section-title {
+  text-align: left;
+}
+
+.social-icon {
+  text-decoration: none;
+}
+
+.input-basic {
+  padding: 0 25px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 25px;
+  width: 350px;
+  height: 50px;
+}
+.input-description {
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+.contact-description {
+  margin: 30px 0;
+  font-weight: 500;
+  color: #585858;
+  font-size: 15px;
+}
+section img {
+  margin-right: 20px;
+}
