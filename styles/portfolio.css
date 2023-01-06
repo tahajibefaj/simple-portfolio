@@ -87,7 +87,8 @@ main {
 }
 
 section {
-  margin-top: 100;
+  margin: 100px 0;
+  text-align: center;
 }
 
 .section-title {
@@ -122,11 +123,7 @@ section {
 
 /* work styles */
 
-.work {
-  border-radius: 15px;
-  padding: 150px 0;
-  text-align: center;
-}
+
 .work-container {
   display: flex;
   gap: 50px;
